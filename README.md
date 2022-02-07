@@ -41,11 +41,11 @@ This p value is .04 so we would reject the null hypothesis that there is no stat
 ## Study Design: MechaCar vs Competition
 
 To compare further against the competition we are going to look at how cost compares to MPG, Safety Rating, and Horsepower. 
-Null hypothesis - There is no significant difference in price based on MPG, Safety Rating, and Horsepower
-Alternative hypothesis - There is a significant difference in price based on MPG, Safety Rating, and Horsepower.
+- Null hypothesis - There is no significant difference in price based on MPG, Safety Rating, and Horsepower
+- Alternative hypothesis - There is a significant difference in price based on MPG, Safety Rating, and Horsepower.
 
-To test this we would run a linear regression with multiple variables similar to the following code:
-  Summary(lm(cost ~ MPG + Safety + HP, data))
-To have this be the most accurate we should have a variety of our and competition's cars from the least expensive to the most. We would look at the resulting p-values to see which factor if any is most significant.
+- To test this we would run a linear regression with multiple variables similar to the following code:
+ - Summary(lm(cost ~ MPG + Safety + HP, data))
+- To have this be the most accurate we should have a variety of our and competition's cars from the least expensive to the most. We would look at the resulting p-values to see which factor if any is most significant.
 
 
